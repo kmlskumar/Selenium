@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression_Suite]">
+  <test name="open demoqa website (failed)">
+    <classes>
+      <class name="test.HomePageTest">
+        <methods>
+          <include name="resize_text"/>
+          <include name="open_Browser"/>
+          <include name="get_objet"/>
+          <include name="quit"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- test.HomePageTest -->
+    </classes>
+  </test> <!-- open demoqa website (failed) -->
+</suite> <!-- Failed suite [Regression_Suite] -->
