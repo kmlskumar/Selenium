@@ -3,13 +3,7 @@
 <listeners>
     <listener class-name="Listeners.listner"/>
   </listeners>
-<test name="open demoqa "  preserve-order="true">
-  
-  <classes>
-    <class name="test.ResizeAndDrag_Assignment_1Test">
-    </class>
-    </classes>
-    </test> 
+
     
     <test name="cleartrip "  preserve-order="true">
   
@@ -19,5 +13,12 @@
     </classes>
     </test> 
     
+    <test name="open demoqa "  preserve-order="true">
+  
+  <classes>
+    <class name="test.ResizeAndDrag_Assignment_1Test">
+    </class>
+    </classes>
+    </test> 
     
     </suite>

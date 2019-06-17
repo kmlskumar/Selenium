@@ -1,88 +1,491 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
+    <line>
+      <![CDATA[About to start executing Suite demoqa]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.report]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :BaseTest.report]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test cleartrip ]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.open_application_url]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.open_application_url]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.select_from_city]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.select_from_city]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.select_To_city]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.select_To_city]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.select_Datepicker]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.select_Datepicker]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.click_On_Search]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.click_On_Search]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test cleartrip ]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test open demoqa ]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.click_on_Resizable]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.click_on_Resizable]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ResizeAndDrag_Assignment_1Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.after]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.get_objet]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.perform_drag_drop]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.perform_drag_drop]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in test.ResizeAndDrag_Assignment_1Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.after]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test open demoqa ]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.quit]]>
+    </line>
     <line>
       <![CDATA[************BROWSER CLOSED SUCCESSFULLY*************]]>
     </line>
+    <line>
+      <![CDATA[Completed executing following method  :BaseTest.quit]]>
+    </line>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="27040" started-at="2019-06-14T13:22:18Z" finished-at="2019-06-14T13:22:45Z">
+  <suite name="demoqa" duration-ms="72011" started-at="2019-06-17T09:01:00Z" finished-at="2019-06-17T09:02:12Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="27040" started-at="2019-06-14T13:22:18Z" finished-at="2019-06-14T13:22:45Z">
+    <test name="cleartrip " duration-ms="50640" started-at="2019-06-17T09:01:00Z" finished-at="2019-06-17T09:01:50Z">
       <class name="test.ClearTrip_Assignment_2Test">
-        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ClearTrip_Assignment_2Test@234bef66]" name="get_objet" is-config="true" duration-ms="16" started-at="2019-06-14T18:52:18Z" finished-at="2019-06-14T18:52:18Z">
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="get_objet" is-config="true" duration-ms="67" started-at="2019-06-17T14:31:00Z" finished-at="2019-06-17T14:31:00Z">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+            </line>
           </reporter-output>
         </test-method> <!-- get_objet -->
-        <test-method status="PASS" signature="perform_drag_drop()[pri:0, instance:test.ClearTrip_Assignment_2Test@234bef66]" name="perform_drag_drop" duration-ms="13725" started-at="2019-06-14T18:52:18Z" finished-at="2019-06-14T18:52:32Z">
+        <test-method status="PASS" signature="open_application_url()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="open_application_url" duration-ms="17935" started-at="2019-06-17T14:31:00Z" finished-at="2019-06-17T14:31:18Z">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.open_application_url]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- perform_drag_drop -->
-        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ClearTrip_Assignment_2Test@234bef66]" name="after" is-config="true" duration-ms="13" started-at="2019-06-14T18:52:32Z" finished-at="2019-06-14T18:52:32Z">
+        </test-method> <!-- open_application_url -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="after" is-config="true" duration-ms="4" started-at="2019-06-17T14:31:18Z" finished-at="2019-06-17T14:31:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=perform_drag_drop status=SUCCESS method=ClearTrip_Assignment_2Test.perform_drag_drop()[pri:0, instance:test.ClearTrip_Assignment_2Test@234bef66] output={null}]]]>
+                <![CDATA[[TestResult name=open_application_url status=SUCCESS method=ClearTrip_Assignment_2Test.open_application_url()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055] output=Completed executing following method  :ClearTrip_Assignment_2Test.open_application_url]]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="get_objet" is-config="true" duration-ms="2" started-at="2019-06-17T14:31:18Z" finished-at="2019-06-17T14:31:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_objet -->
+        <test-method status="PASS" signature="select_from_city()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="select_from_city" duration-ms="2774" started-at="2019-06-17T14:31:18Z" finished-at="2019-06-17T14:31:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.select_from_city]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- select_from_city -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="after" is-config="true" duration-ms="1" started-at="2019-06-17T14:31:21Z" finished-at="2019-06-17T14:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=select_from_city status=SUCCESS method=ClearTrip_Assignment_2Test.select_from_city()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055] output=Completed executing following method  :ClearTrip_Assignment_2Test.select_from_city]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="get_objet" is-config="true" duration-ms="3" started-at="2019-06-17T14:31:21Z" finished-at="2019-06-17T14:31:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_objet -->
+        <test-method status="PASS" signature="select_To_city()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="select_To_city" duration-ms="2401" started-at="2019-06-17T14:31:21Z" finished-at="2019-06-17T14:31:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.select_To_city]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- select_To_city -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="after" is-config="true" duration-ms="1" started-at="2019-06-17T14:31:23Z" finished-at="2019-06-17T14:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=select_To_city status=SUCCESS method=ClearTrip_Assignment_2Test.select_To_city()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055] output=Completed executing following method  :ClearTrip_Assignment_2Test.select_To_city]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="get_objet" is-config="true" duration-ms="2" started-at="2019-06-17T14:31:23Z" finished-at="2019-06-17T14:31:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_objet -->
+        <test-method status="PASS" signature="select_Datepicker()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="select_Datepicker" duration-ms="4762" started-at="2019-06-17T14:31:23Z" finished-at="2019-06-17T14:31:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.select_Datepicker]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- select_Datepicker -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="after" is-config="true" duration-ms="1" started-at="2019-06-17T14:31:28Z" finished-at="2019-06-17T14:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=select_Datepicker status=SUCCESS method=ClearTrip_Assignment_2Test.select_Datepicker()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055] output=Completed executing following method  :ClearTrip_Assignment_2Test.select_Datepicker]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="get_objet" is-config="true" duration-ms="1" started-at="2019-06-17T14:31:28Z" finished-at="2019-06-17T14:31:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.get_objet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_objet -->
+        <test-method status="PASS" signature="click_On_Search()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="click_On_Search" duration-ms="22667" started-at="2019-06-17T14:31:28Z" finished-at="2019-06-17T14:31:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.click_On_Search]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ClearTrip_Assignment_2Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ClearTrip_Assignment_2Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- click_On_Search -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055]" name="after" is-config="true" duration-ms="2" started-at="2019-06-17T14:31:50Z" finished-at="2019-06-17T14:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_On_Search status=SUCCESS method=ClearTrip_Assignment_2Test.click_On_Search()[pri:0, instance:test.ClearTrip_Assignment_2Test@3cda1055] output=Completed executing following method  :ClearTrip_Assignment_2Test.click_On_Search]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ClearTrip_Assignment_2Test.after]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.ClearTrip_Assignment_2Test -->
-      <class name="test.BaseTest">
-        <test-method status="PASS" signature="report()[pri:0, instance:test.BaseTest@52af6cff]" name="report" is-config="true" duration-ms="297" started-at="2019-06-14T18:52:18Z" finished-at="2019-06-14T18:52:18Z">
+    </test> <!-- cleartrip  -->
+    <test name="open demoqa " duration-ms="21258" started-at="2019-06-17T09:01:51Z" finished-at="2019-06-17T09:02:12Z">
+      <class name="test.ResizeAndDrag_Assignment_1Test">
+        <test-method status="PASS" signature="report()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="report" is-config="true" duration-ms="340" started-at="2019-06-17T14:31:00Z" finished-at="2019-06-17T14:31:00Z">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :BaseTest.report]]>
+            </line>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:test.BaseTest@52af6cff]" name="quit" is-config="true" duration-ms="5618" started-at="2019-06-14T18:52:46Z" finished-at="2019-06-14T18:52:51Z">
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="get_objet" is-config="true" duration-ms="16" started-at="2019-06-17T14:31:51Z" finished-at="2019-06-17T14:31:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.get_objet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_objet -->
+        <test-method status="PASS" signature="click_on_Resizable()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="click_on_Resizable" duration-ms="12537" started-at="2019-06-17T14:31:51Z" finished-at="2019-06-17T14:32:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.click_on_Resizable]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ResizeAndDrag_Assignment_1Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- click_on_Resizable -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="after" is-config="true" duration-ms="1" started-at="2019-06-17T14:32:03Z" finished-at="2019-06-17T14:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_Resizable status=SUCCESS method=ResizeAndDrag_Assignment_1Test.click_on_Resizable()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e] output=Completed executing following method  :ResizeAndDrag_Assignment_1Test.click_on_Resizable]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="get_objet" is-config="true" duration-ms="1" started-at="2019-06-17T14:32:03Z" finished-at="2019-06-17T14:32:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.get_objet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_objet -->
+        <test-method status="PASS" signature="perform_drag_drop()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="perform_drag_drop" duration-ms="8688" started-at="2019-06-17T14:32:03Z" finished-at="2019-06-17T14:32:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.perform_drag_drop]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in test.ResizeAndDrag_Assignment_1Test]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ResizeAndDrag_Assignment_1Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- perform_drag_drop -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="after" is-config="true" duration-ms="2" started-at="2019-06-17T14:32:12Z" finished-at="2019-06-17T14:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=perform_drag_drop status=SUCCESS method=ResizeAndDrag_Assignment_1Test.perform_drag_drop()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e] output=Completed executing following method  :ResizeAndDrag_Assignment_1Test.perform_drag_drop]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method  :ResizeAndDrag_Assignment_1Test.after]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@4157f54e]" name="quit" is-config="true" duration-ms="5600" started-at="2019-06-17T14:32:12Z" finished-at="2019-06-17T14:32:17Z">
           <reporter-output>
             <line>
               <![CDATA[************BROWSER CLOSED SUCCESSFULLY*************]]>
             </line>
+            <line>
+              <![CDATA[Completed executing following method  :BaseTest.quit]]>
+            </line>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- test.BaseTest -->
-      <class name="test.ResizeAndDrag_Assignment_1Test">
-        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0]" name="get_objet" is-config="true" duration-ms="57" started-at="2019-06-14T18:52:32Z" finished-at="2019-06-14T18:52:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_objet -->
-        <test-method status="PASS" signature="click_on_Resizable()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0]" name="click_on_Resizable" duration-ms="10255" started-at="2019-06-14T18:52:32Z" finished-at="2019-06-14T18:52:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_on_Resizable -->
-        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0]" name="after" is-config="true" duration-ms="0" started-at="2019-06-14T18:52:43Z" finished-at="2019-06-14T18:52:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=click_on_Resizable status=SUCCESS method=ResizeAndDrag_Assignment_1Test.click_on_Resizable()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="get_objet()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0]" name="get_objet" is-config="true" duration-ms="0" started-at="2019-06-14T18:52:43Z" finished-at="2019-06-14T18:52:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_objet -->
-        <test-method status="PASS" signature="perform_drag_drop()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0]" name="perform_drag_drop" duration-ms="2958" started-at="2019-06-14T18:52:43Z" finished-at="2019-06-14T18:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- perform_drag_drop -->
-        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0]" name="after" is-config="true" duration-ms="1" started-at="2019-06-14T18:52:45Z" finished-at="2019-06-14T18:52:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=perform_drag_drop status=SUCCESS method=ResizeAndDrag_Assignment_1Test.perform_drag_drop()[pri:0, instance:test.ResizeAndDrag_Assignment_1Test@737996a0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
       </class> <!-- test.ResizeAndDrag_Assignment_1Test -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- open demoqa  -->
+  </suite> <!-- demoqa -->
 </testng-results>

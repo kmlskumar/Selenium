@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import javax.management.RuntimeErrorException;
+
 public class Property_data {
 	
 private Properties prop;
@@ -60,6 +62,17 @@ public String getbrowser(){
 		if(driverPath!= null) return driverPath;
 		else throw new RuntimeException("driverPath not specified in the Configuration.properties file.");		
 	}
+    public String get_from_city(){
+    	String fromcity=prop.getProperty("from");
+		if(fromcity!=null) return fromcity;
+		else throw new RuntimeException("fromcity not specified in the configration.properties filr. ");
+		
+    }
+    public String get_To_city(){
+    	String Tocity=prop.getProperty("To");
+		if(Tocity!=null) return Tocity;
+		else throw new RuntimeException("fromcity not specified in the configration.properties filr. ");
+    }
 }
 
 

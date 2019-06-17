@@ -14,24 +14,31 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.test.skip>false</maven.test.skip>
   </properties>
+  
 
   <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    
+            <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>3.14.0</version>
 </dependency>
-  
-  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+ <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.9.5</version>
-</dependency>
+    <scope>test</scope>
+</dependency> 
+
+
+
   
-  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
@@ -39,14 +46,14 @@
     <scope>provided</scope>
 </dependency>
   
-<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+  <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
 <dependency>
     <groupId>org.mongodb</groupId>
     <artifactId>mongo-java-driver</artifactId>
     <version>3.8.2</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+  
+  <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
 <dependency>
     <groupId>org.freemarker</groupId>
     <artifactId>freemarker</artifactId>
@@ -60,7 +67,9 @@
     <version>2.6</version>
 </dependency>
 
+<!-- LIST OF APACHE POI API and below are the list of dependencies -->
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<!--  this API is used to read data from excel file or use data provider -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
@@ -90,7 +99,7 @@
     <artifactId>poi-scratchpad</artifactId>
     <version>4.0.0</version>
 </dependency>
-          
+   <!-- Apache POI dependency ends here -->
 
 <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
 <dependency>
@@ -99,6 +108,7 @@
     <version>1.5.4</version>
 </dependency>
 
+  
   </dependencies>
 
   <build>
@@ -114,25 +124,11 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.19.1</version>
-          <configuration>
-            <suiteXmlFiles>
-              <suiteXmlFile>TestNg.xml</suiteXmlFile>
-            </suiteXmlFiles>
-            <testFailureIgnore>true</testFailureIgnore>
-            <printSummary>true</printSummary>
-          </configuration>
-        </plugin>
-        <plugin>
+       <!--   <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        </plugin>
+         
+        </plugin>-->
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
@@ -154,8 +150,31 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        
+        <plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.19.1</version>
+					<configuration>
+						<suiteXmlFiles>   
+					         <suiteXmlFile>src/test/resources/TestNg.xml</suiteXmlFile>
+		         				         
+						</suiteXmlFiles>
+						<testFailureIgnore>true</testFailureIgnore>
+						<printSummary>true</printSummary>
+					</configuration>
+				</plugin>	
+				
+				<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>	
       </plugins>
     </pluginManagement>
   </build>
-  
 </project>

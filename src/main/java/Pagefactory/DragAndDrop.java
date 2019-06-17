@@ -13,7 +13,7 @@ public class DragAndDrop extends Wait {
 	WebDriver driver;
 
 	//**********locators by using factory method********
-	@FindBy(xpath="//*[@href='https://demoqa.com/droppable/']")
+	@FindBy(xpath="//a[@href='https://demoqa.com/droppable/']")
 	WebElement Dropable;
 	@FindBy(xpath="//*[@id='draggable']")
 	WebElement Dragme_From_here;

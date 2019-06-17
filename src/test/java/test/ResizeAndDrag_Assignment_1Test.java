@@ -38,7 +38,7 @@ public void click_on_Resizable() throws IOException, InterruptedException{
 	test=extent.createTest("Click on Resizable");
 	
 	driver.findElement(By.xpath("//*[text()='Resizable']")).click();
-	Thread.sleep(2000);
+	
 	test.log(Status.PASS, "Resizable clicked successfully" );
 	s.assertAll();
 }
@@ -52,13 +52,16 @@ public void perform_drag_drop() throws IOException, InterruptedException{
 	boolean status=drag.dropped_isvisible();
 	Assert.assertTrue(status, "Dropped is not visible ");
 	test.log(Status.PASS, "Droped is not visible");
-	
+	Thread.sleep(3000);
 	drag.dragAndDropBack();
 	test.log(Status.PASS, "Drag Back and drop successsfuly");
 	boolean status1=drag.dropped_isvisible();
 	Assert.assertTrue(status1, "Dropped is not visible, after drop Back ");
 	test.log(Status.PASS, "Droped is not visible, after drop back");
+	driver.quit();
+	test.log(Status.PASS, "Quit the broser");
 	s.assertAll();
+	
 }
 @AfterMethod
 public void after(ITestResult result) throws IOException {

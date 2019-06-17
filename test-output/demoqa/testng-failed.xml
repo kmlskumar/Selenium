@@ -4,14 +4,23 @@
   <listeners>
     <listener class-name="Listeners.listner"/>
   </listeners>
-  <test name="open demoqa website11 (failed)">
+  <test name="cleartrip (failed)">
     <classes>
-      <class name="test.Assignment_1Test">
+      <class name="test.ClearTrip_Assignment_2Test">
         <methods>
+          <include name="click_On_Search"/>
           <include name="get_objet"/>
-          <include name="click_on_Resizable"/>
+          <include name="after"/>
         </methods>
-      </class> <!-- test.Assignment_1Test -->
+      </class> <!-- test.ClearTrip_Assignment_2Test -->
+      <class name="test.ResizeAndDrag_Assignment_1Test">
+        <methods>
+          <include name="report"/>
+          <include name="after"/>
+          <include name="quit"/>
+          <include name="get_objet"/>
+        </methods>
+      </class> <!-- test.ResizeAndDrag_Assignment_1Test -->
     </classes>
-  </test> <!-- open demoqa website11 (failed) -->
+  </test> <!-- cleartrip (failed) -->
 </suite> <!-- Failed suite [demoqa] -->

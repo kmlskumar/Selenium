@@ -30,13 +30,50 @@ public class ClearTrip_Assignment_2Test extends BaseTest{
 		
 	}
 	@Test(priority=1)
-	public void perform_drag_drop() throws IOException{
-		open_Browser2();
+	public void open_application_url() throws IOException, InterruptedException{
+		
 		test=extent.createTest("Open_cleartrip.com");
+		open_Browser2();
+		test.log(Status.PASS, "open cleartrip successfully");
 		
-		
-		
+		Thread.sleep(3000);
 	}
+	
+	@Test(priority=2)
+	public void select_from_city() throws InterruptedException, IOException{
+		test=extent.createTest("selct From city");
+        clear.Select_Round_trip();
+        test.log(Status.PASS, "selct Round Trip successfully");
+		clear.select_from_city();
+		test.log(Status.PASS, "select from city successfully");
+		s.assertAll();
+	}
+	@Test(priority=3)
+	public void select_To_city() throws InterruptedException, IOException{
+		test=extent.createTest("Select to city");
+		clear.select_To_city();
+		test.log(Status.PASS, "select To city successfully");
+		s.assertAll();
+	}
+	@Test(priority=4)
+	
+	public void select_Datepicker() throws InterruptedException, IOException{
+		test=extent.createTest("Select date picket");
+		clear.Select_Departaon_Datepicker();
+		test.log(Status.PASS, "select from Date successfully");
+		clear.Select_ReturnOn_Datepicker();
+		test.log(Status.PASS, "select To date successfully");
+		s.assertAll();
+	}
+	@Test(priority=5)
+	public void click_On_Search() throws InterruptedException, IOException{
+		test=extent.createTest("Search Flight");
+		clear.search_click();
+		
+		test.log(Status.PASS, " click on search successfully");
+		s.assertAll();
+	}
+	
 	
 	@AfterMethod
 		public void after(ITestResult result) throws IOException {
