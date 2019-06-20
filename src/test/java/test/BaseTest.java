@@ -36,6 +36,7 @@ public void report(){
 	htmlReporter.config().setTheme(Theme.DARK);
 	extent = new ExtentReports();
 	extent.attachReporter(htmlReporter);
+	
 }
 
 public void open_Browser() throws IOException{
@@ -45,6 +46,7 @@ public void open_Browser() throws IOException{
 	if(p.getbrowser().equalsIgnoreCase("chrome")){
 	ChromeOptions options= new ChromeOptions();
 	options.addArguments("--disable-infobars","--start-maximized");
+	options.addArguments("--disable-notifications");
 	System.setProperty("webdriver.chrome.driver", p.getDriverPath());
 	driver =new ChromeDriver(options);
 	driver.get(p.get_url());
@@ -74,6 +76,7 @@ public void open_Browser2() throws IOException{
 	if(p.getbrowser().equalsIgnoreCase("chrome")){
 	ChromeOptions options= new ChromeOptions();
 	options.addArguments("--disable-infobars","--start-maximized");
+	options.addArguments("--disable-notifications");
 	System.setProperty("webdriver.chrome.driver", p.getDriverPath());
 	driver =new ChromeDriver(options);
 	driver.get(p.get_url2());

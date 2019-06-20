@@ -3,8 +3,10 @@ package Pagefactory;
 import java.io.IOException;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
@@ -38,6 +40,13 @@ public class ClearTrip extends Wait{
 	WebElement Select_Return_on_date;
 	@FindBy(xpath="//*[@id='SearchBtn']")
 	WebElement Search_flights;
+	@FindBy(xpath="//*[@for='1_1_1']")
+	WebElement select_stops;
+	
+	@FindBy(xpath="//*[text()='6E-456']")
+	WebElement select_Flight;
+	@FindBy(xpath="//*[text()='6E-601']")
+	WebElement select_returnFlight;
 	
 	
 	
@@ -97,9 +106,30 @@ public class ClearTrip extends Wait{
 	}
 	public void search_click() throws InterruptedException{
 		//highlight(driver,Search_flights);
-		Search_flights.click();
-		Thread.sleep(20000);
-		driver.close();
-	}
+		//Search_flights.click();
+		long start = System.currentTimeMillis();
+		Actions action=new Actions(driver);
+		action.moveToElement(Search_flights).click().build().perform();
 		
+		WebElement ele = driver.findElement(By.xpath("(//*[text()='Book'])[2]"));
+		long finish = System.currentTimeMillis();
+		long totalTime = finish - start; 
+		System.out.println("Total Time for page load - "+totalTime); 
+		Thread.sleep(10000);
+		action.moveToElement(select_stops).click().build().perform();
+		
+	
+	}
+	public void selectflight_click() throws InterruptedException{
+		//selectFlight.click();
+		Actions action=new Actions(driver);
+		action.moveToElement(select_Flight).click().build().perform();
+		Thread.sleep(2000);
+		action.moveToElement(select_returnFlight).click().build().perform();
+		//select_returnFlight.click();
+		Thread.sleep(2000);
+	}
+	
+	
+	
 }

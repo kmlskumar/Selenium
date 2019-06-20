@@ -2,6 +2,7 @@ package test;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,15 +14,13 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import Pagefactory.ClearTrip;
-import Pagefactory.DragAndDrop;
-
 import Utility.Property_data;
-
 public class ClearTrip_Assignment_2Test extends BaseTest{
+    static Logger log=Logger.getLogger(ClearTrip_Assignment_2Test.class);
 	Property_data p;
 	ClearTrip clear;
 	SoftAssert s;
-
+	
 	@BeforeMethod
 	public void get_objet(){
 		p= new Property_data();
@@ -31,12 +30,14 @@ public class ClearTrip_Assignment_2Test extends BaseTest{
 	}
 	@Test(priority=1)
 	public void open_application_url() throws IOException, InterruptedException{
+		log.info("ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
 		
 		test=extent.createTest("Open_cleartrip.com");
 		open_Browser2();
 		test.log(Status.PASS, "open cleartrip successfully");
 		
 		Thread.sleep(3000);
+
 	}
 	
 	@Test(priority=2)
@@ -72,6 +73,18 @@ public class ClearTrip_Assignment_2Test extends BaseTest{
 		
 		test.log(Status.PASS, " click on search successfully");
 		s.assertAll();
+	}
+	
+	@Test(priority=6)
+	public void selct_flight() throws InterruptedException{
+		test=extent.createTest(" check depart and returnFlight");
+		
+		clear.selectflight_click();
+		Thread.sleep(5000);
+		test.log(Status.PASS, " select flightsuccessfully");
+	driver.quit();
+		s.assertAll();
+		
 	}
 	
 	

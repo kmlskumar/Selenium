@@ -1,9 +1,11 @@
 package Pagefactory;
 
 import java.io.IOException;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +24,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import Utility.Property_data;
+
 
 public class Resize{
 	
@@ -50,21 +53,42 @@ public Resize(WebDriver driver) {
 
 
 //*****************Action method*********
+public void resize(WebElement elementToResize, int xOffset, int yOffset) {
+    try {
+        if (elementToResize.isDisplayed()) {
+            Actions action = new Actions(driver);
+            action.clickAndHold(elementToResize).moveByOffset(xOffset, yOffset).release().build().perform();
+        } else {
+            System.out.println("Element was not displayed to drag");
+        }
+    } catch (StaleElementReferenceException e) {
+        System.out.println("Element with " + elementToResize + "is not attached to the page document "  + e.getStackTrace());
+    } catch (NoSuchElementException e) {
+        System.out.println("Element " + elementToResize + " was not found in DOM " + e.getStackTrace());
+    } catch (Exception e) {
+        System.out.println("Unable to resize" + elementToResize + " - " + e.getStackTrace());
+    }
+}
 public void resizable_click()throws IOException{
-	resize.click();
+	
+	
+	
+	
 }
 	
 	
 
 public void resizeText(){
-	WebDriverWait wait = new WebDriverWait(driver, 5);
-	wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector("demo-frame")));
-	driver.switchTo().frame(driver.findElement(By.className("demo-frame")));
-	//driver.switchTo().frame(driver.findElement(By.xpath("//*[@id='content']/div[2]")));
-	WebElement widget = driver.findElement(By.xpath("//*[@id='resizable']/div[3]"));
-	Actions action = new Actions(driver);
-	// Code for resize 
-	action.clickAndHold(widget).moveByOffset(120, 120).release().build().perform();
-	System.out.println("abc");
+try{
+	 WebDriverWait wait = new WebDriverWait(driver, 5);
+    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector(".demo-frame")));
+    WebElement resizeableElement = driver.findElement(By.cssSelector("#resizable > div.ui-resizable-handle.ui-resizable-e"));
+    resize(resizeableElement, 50, 50);
 }
+    	catch (Exception e){
+    		e.printStackTrace();
+    	}
+    }
 }
+
+

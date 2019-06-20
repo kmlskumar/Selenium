@@ -3,6 +3,7 @@ package test;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -33,16 +34,21 @@ public void get_objet(){
 	
 }
 @Test(priority=1)
-public void click_on_Resizable() throws IOException, InterruptedException{
-	open_Browser();
-	test=extent.createTest("Click on Resizable");
-	
-	driver.findElement(By.xpath("//*[text()='Resizable']")).click();
-	
-	test.log(Status.PASS, "Resizable clicked successfully" );
-	s.assertAll();
+public void open_Demoqa() throws IOException, InterruptedException{
+	test=extent.createTest("open demoqa url ");
+	open_Browser();	
+	test.log(Status.PASS, "denoqa url open successsfully");
 }
 @Test(priority=2)
+public void perform_resize(){
+	test=extent.createTest("Resize the text box");
+	drag.Click_On_resize();
+	test.log(Status.PASS, "click on resize link successsfuly");
+	drag.RresizeText();
+	test.log(Status.PASS, "Resized text inbox successsfuly");
+	s.assertAll();
+}
+@Test(priority=3)
 public void perform_drag_drop() throws IOException, InterruptedException{
 	test=extent.createTest("Drag and Drop ");
 	drag.clic_on_Droppable();
@@ -51,15 +57,13 @@ public void perform_drag_drop() throws IOException, InterruptedException{
 	test.log(Status.PASS, "Drag and drop successsfuly");
 	boolean status=drag.dropped_isvisible();
 	Assert.assertTrue(status, "Dropped is not visible ");
-	test.log(Status.PASS, "Droped is not visible");
+	test.log(Status.PASS, "Droped is  visible");
 	Thread.sleep(3000);
 	drag.dragAndDropBack();
 	test.log(Status.PASS, "Drag Back and drop successsfuly");
 	boolean status1=drag.dropped_isvisible();
 	Assert.assertTrue(status1, "Dropped is not visible, after drop Back ");
-	test.log(Status.PASS, "Droped is not visible, after drop back");
-	driver.quit();
-	test.log(Status.PASS, "Quit the broser");
+	test.log(Status.PASS, "Droped is visible, after drop back");
 	s.assertAll();
 	
 }
