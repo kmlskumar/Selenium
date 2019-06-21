@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.971" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.451" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\selenium_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4287738359351227315.tmp"/>
+    <property name="classworlds.conf" value="C:\selenium_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5603107045695367586.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_191/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_191/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_191/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Python37;C:\Program Files\Python37\DLLs;C:\Program Files\Python37\Lib;C:\Program Files\Python37\Scripts;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Users\kamlesh.j.kumar\AppData\Local\Microsoft\WindowsApps;C:\Users\kamlesh.j.kumar\AppData\Local\Programs\Git\cmd;C:\Users\kamlesh.j.kumar\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,11 +60,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="open_application_url" classname="test.ClearTrip_Assignment_2Test" time="17.934"/>
-  <testcase name="select_from_city" classname="test.ClearTrip_Assignment_2Test" time="2.774"/>
-  <testcase name="select_To_city" classname="test.ClearTrip_Assignment_2Test" time="2.402"/>
-  <testcase name="select_Datepicker" classname="test.ClearTrip_Assignment_2Test" time="4.763"/>
-  <testcase name="click_On_Search" classname="test.ClearTrip_Assignment_2Test" time="22.671"/>
-  <testcase name="click_on_Resizable" classname="test.ResizeAndDrag_Assignment_1Test" time="12.54"/>
-  <testcase name="perform_drag_drop" classname="test.ResizeAndDrag_Assignment_1Test" time="8.689"/>
+  <testcase name="open_application_url" classname="test.ClearTrip_Assignment_2Test" time="14.908"/>
+  <testcase name="select_from_city" classname="test.ClearTrip_Assignment_2Test" time="2.635"/>
+  <testcase name="select_To_city" classname="test.ClearTrip_Assignment_2Test" time="2.525"/>
+  <testcase name="select_Datepicker" classname="test.ClearTrip_Assignment_2Test" time="4.677"/>
+  <testcase name="click_On_Search" classname="test.ClearTrip_Assignment_2Test" time="14.548"/>
+  <testcase name="selct_flight" classname="test.ClearTrip_Assignment_2Test" time="10.733"/>
+  <testcase name="open_Demoqa" classname="test.ResizeAndDrag_Assignment_1Test" time="9.735"/>
+  <testcase name="perform_resize" classname="test.ResizeAndDrag_Assignment_1Test" time="1.884"/>
+  <testcase name="perform_drag_drop" classname="test.ResizeAndDrag_Assignment_1Test" time="7.492"/>
 </testsuite>

@@ -16,19 +16,19 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import Pagefactory.DragAndDrop;
-import Pagefactory.Resize;
+
 import Utility.Property_data;
 
 public class ResizeAndDrag_Assignment_1Test extends BaseTest{
 Property_data p;
-Resize R;
+
 SoftAssert s;
 DragAndDrop drag;
 
 @BeforeMethod
 public void get_objet(){
 	p= new Property_data();
-	R=new Resize(driver);
+	
 	s=new SoftAssert();
 	drag=new DragAndDrop(driver);
 	
@@ -44,7 +44,7 @@ public void perform_resize(){
 	test=extent.createTest("Resize the text box");
 	drag.Click_On_resize();
 	test.log(Status.PASS, "click on resize link successsfuly");
-	drag.RresizeText();
+	//drag.RresizeText();
 	test.log(Status.PASS, "Resized text inbox successsfuly");
 	s.assertAll();
 }

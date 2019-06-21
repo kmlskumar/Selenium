@@ -77,7 +77,7 @@ public void dragAndDropBack(){
 		
 		Actions action = new Actions(driver);
 		
-		action.dragAndDrop(Dragme_From_here,Drop_me_bck).build().perform(); 
+		action.dragAndDrop(Dragme_From_here,Drop_me_here).build().perform(); 
 		
 	}
 
